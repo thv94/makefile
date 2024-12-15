@@ -6,7 +6,7 @@ SRC_DIR = src
 INC_DIR = include
 OBJ_DIR = .o
 
-CFLAGS = -Wall -Wextra -Werror -Wpedandtic -I$(INC_DIR) -std=$(CSTD) $(OPT_LEVEL)
+CFLAGS = -Wall -Wextra -Werror -Wpedantic -I$(INC_DIR) -std=$(CSTD) $(OPT_LEVEL)
 
 TARGET = program
 
